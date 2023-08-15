@@ -1,0 +1,136 @@
+/* Custom Css */
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@font-face {
+    font-family: DreamerLandDemoRegular;
+    src: url(../fonts/DreamerLandDemoRegular.ttf);
+  }
+
+/* css for book cover */
+section.book-cover {
+    background-color: #0b0c21;
+}
+
+div.col-6:first-child{
+    background-image: url('../assets/book-cover.jpg');
+    height: 850px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.col-6:last-child{
+    background-image: url('../assets/review-page-bg.webp');
+    height: 850px;
+    width: 610px;
+}
+
+div.tag {
+    background-color: salmon;
+    width: 150px;
+    height: 100px;
+    /* border-radius: 50%; */
+    /* border: solid salmon 10px; */
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    color: #fff;
+    padding-top: 20px;
+}
+
+div.bookTitle>p:first-child {
+    font-family: 'Pompiere', cursive;
+    color: salmon;
+    font-size: 5em;
+    width: 50px;
+    line-height: 90px;
+    position: relative;
+    left: 240px;
+    top: 250px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div.bookTitle>p:nth-child(2) {
+    font-family: 'Pompiere', cursive;
+    color: salmon;
+    font-size: 6em;
+    width: 50px;
+    line-height: 90px;
+    position: relative;
+    left: 220px;
+    top: 250px;
+    justify-content: center;
+}
+
+div.bookTitle>p:last-child {
+    font-family: 'Pompiere', cursive;
+    color: salmon;
+    font-size: 7em;
+    width: 50px;
+    line-height: 90px;
+    position: relative;
+    left: 160px;
+    top: 250px;
+    justify-content: center;
+}
+div.authors{
+    color: #54a7de;
+    position: relative;
+    top: 250px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: DreamerLandDemoRegular;
+
+}
+div.synopsis{
+    color: #fff;
+    padding: 10px;
+}
+div#book-title{
+    font-family: 'Amatic SC', cursive;
+    color: salmon;
+}
+div#book-description>p.lead{
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+}
+div#book-footer>img{
+    height: 70px;
+}
+
+/* authors section */
+  h1.authors{
+    font-style: italic;
+  }
+
+/* accordion section css */
+
+h2.accordion-header>button{
+    font-size: 1em;
+    background-color: #f8d2cd;
+    color: black;
+}
+div.accordion-body{
+    font-size: 1.1em;
+}
+
+  /* css for review section */
+  /* review css */
+.fa-star{
+    color: yellow;
+    font-size: larger;
+}
+.checked {
+    color: orange;
+  }
+  section.reviews>div.row>div.col-3{
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px grey;
+  }
+  .review-img>img{
+    border-radius: 150px;
+    width: 190px;
+    box-shadow: 10px 10px 10px 000;
+  }
